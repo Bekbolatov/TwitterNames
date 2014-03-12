@@ -14,3 +14,10 @@ Later I will check 4-letter names. Since this is 1.8 mln tests - it will take on
 
 It should be doable, as long as Twitter doesn't block your calls. Throttling appears to be okay.
 
+To use:
+
+
+    python tryNames.py <prefix>
+
+
+
