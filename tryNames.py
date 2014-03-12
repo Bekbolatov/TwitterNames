@@ -48,6 +48,9 @@ def comb(list,n,p):
 			comb(list,n-1,p+i)
 		
 
+if len(sys.argv) > 1:
+	prefix = sys.argv[1][:cn]
+
 print datetime.now()
 print "\nTrying " + str(cn) + "-letter names starting with " + prefix + "\n"
 comb("abcdefghijklmnopqrstuvwxyz0123456789_", cn - len(prefix), prefix)
